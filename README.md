@@ -1,1 +1,1 @@
-# Efficient time series storage in PostgresQL
+# Efficient time series storage in PostgreSQL
