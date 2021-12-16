@@ -12,6 +12,6 @@ const entity = new Entity({
 (async () => {
     await entity.sync();
 
-    console.log('fin');
+    process.exit();
 
 })().catch(console.error);

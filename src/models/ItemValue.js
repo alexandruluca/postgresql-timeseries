@@ -19,11 +19,11 @@ class ItemValue extends Model {
 		ItemValue.init(
 			{
 				organizationId: {
-					type: DataTypes.UUID,
+					type: DataTypes.INTEGER,
 					allowNull: false
 				},
 				hostItemId: {
-					type: DataTypes.UUID,
+					type: DataTypes.INTEGER,
 					allowNull: false
 				},
 				value: {

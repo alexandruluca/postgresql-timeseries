@@ -103,7 +103,6 @@ class Entity extends Sequelize {
 
     initExtensions() {
         return Promise.all([
-            this.query('CREATE EXTENSION IF NOT EXISTS "uuid-ossp";', {useMaster: true}),
             this.query('CREATE EXTENSION IF NOT EXISTS "citext";', {useMaster: true}),
             this.query('CREATE EXTENSION IF NOT EXISTS pg_partman WITH SCHEMA public;', {useMaster: true})
         ]);

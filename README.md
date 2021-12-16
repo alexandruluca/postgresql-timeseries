@@ -11,5 +11,10 @@ Based on the presentation from https://youtu.be/atvgYJTBEF4 and other small chan
 ## Extensions used
 
 - pg_partman (https://github.com/pgpartman/pg_partman)
-- uuid-ossp
 - citext 
+
+## Single value lookup using btree
+![single value lookup](/img/single_value_lookup.png)
+
+## Range value lookup using btree
+![range value lookup](/img/range_value_lookup.png)

@@ -14,8 +14,7 @@ class Organization extends Model {
 
 		Organization.init({
 			id: {
-				type: DataTypes.UUID,
-				defaultValue: CustomDataTypes.UUIDV4,
+				type: DataTypes.INTEGER,
 				allowNull: false,
 				primaryKey: true
 			},
