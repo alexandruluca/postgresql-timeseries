@@ -7,3 +7,9 @@ This repo illustrates how to efficiently store and retrieve time series in Postg
 
 
 Based on the presentation from https://youtu.be/atvgYJTBEF4 and other small changes 
+
+## Extensions used
+
+- pg_partman (https://github.com/pgpartman/pg_partman)
+- uuid-ossp
+- citext 
