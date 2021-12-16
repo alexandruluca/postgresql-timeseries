@@ -1,0 +1,23 @@
+{
+  "name": "postgresql-timeseries",
+  "version": "1.0.0",
+  "description": "This repo illustrates how to efficiently store and retrieve time series in PostgreSQL for mutiple tenants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandruluca/postgresql-timeseries.git"
+  },
+  "dependencies": {
+    "sequelize": "^6.5.0",
+    "pg": "8.5.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandruluca/postgresql-timeseries/issues"
+  },
+  "homepage": "https://github.com/alexandruluca/postgresql-timeseries#readme"
+}

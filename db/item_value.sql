@@ -5,6 +5,8 @@ CREATE TABLE IF NOT EXISTS "item_value" (
     "timestamp" TIMESTAMP WITH TIME ZONE
 ) partition by list("organization_id");
 
+CREATE UNIQUE INDEX "iv_oht_idx" ON "item_value" USING btree ("organization_id", "host_item_id", "timestamp")
+
 
 -- create a new partition for a customer
 -- this ca be done on the application side or handled by a function
