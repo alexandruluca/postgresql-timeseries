@@ -1,7 +1,7 @@
 const {Entity} = require('./Entity');
 
 const entity = new Entity({
-    database: 'specula_dev',
+    database: 'test',
     password: '123123',
     username: 'root',
     host: '127.0.0.1',
