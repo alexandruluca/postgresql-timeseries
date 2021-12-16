@@ -11,7 +11,6 @@ Based on the presentation from https://youtu.be/atvgYJTBEF4 and other small chan
 ## Extensions used
 
 - pg_partman (https://github.com/pgpartman/pg_partman)
-- citext 
 
 ## Single value lookup using btree
 ![single value lookup](/img/single_value_lookup.png)
